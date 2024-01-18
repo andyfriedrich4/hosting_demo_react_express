@@ -20,7 +20,7 @@ function App() {
     // Ensure the REACT_APP_BACKEND_URL environment variable is set
     if (!backendURL) {
       setMessage("REACT_APP_BACKEND_URL environment variable is not set.");
-      setFetchStatus("Failed to fetch data");
+      setFetchStatus("Failed to fetch data");  
       return;
     }
 
